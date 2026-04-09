@@ -75,10 +75,10 @@ If you wish to use this code in your publication, research, teaching, or other a
   url    = {https://github.com/dominicblanco/Thomas_Proofs.jl},
   note = {\url{ https://github.com/dominicblanco/Thomas_Proofs.jl},
   year   = {2026},
-  doi = {10.5281/zenodo.}
+  doi = {10.5281/zenodo.19487919}
 }}
 ```
-DOI : [10.5281/zenodo.](https://doi.org/10.5281/zenodo.) 
+DOI : [10.5281/zenodo.](https://doi.org/10.5281/zenodo.19487919) 
 
 
 # Contact
