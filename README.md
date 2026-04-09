@@ -35,19 +35,19 @@ is known to have localized patterns and periodic solutions.
 
 ## Proving Localized Patterns 
 
-The Thomas model has solutions which are believed to be localized. We perform the analysis to prove these patterns in Section 2 of [[1]](To appear). We provide the candidate solutions, which are given in the files Ubar_Th_2_j.jl for j = 14,15,16,17, and 18. These correspond to the approximate solution $\overline{u}$ in Section 2.3.2. The approximate solution is computed in the code using a Newton method.
+The Thomas model has solutions which are believed to be localized. We perform the analysis to prove these patterns in Section 2 of [[1]](To appear). We provide the candidate solutions, which are given in the files Ubar_Th_2_j.jl for j = 14,15,16,17, and 18. These correspond to the approximate solution $\overline{\mathbf{u}}$ in Section 2.3.2. The approximate solution is computed in the code using a Newton method.
 
 Given these approximate solution, the file Thomas_Localized_Proof.jl provides the explicit computation of the bounds presented in Section 2.4. It also provides a value for $r_0$ where the proof is successful. 
 
 ## Proving Periodic Solutions
 
-The Thomas model has solutions which are believed to be periodic as well. We wish to provide the theory needed to prove these solutions. We perform a similar, yet different analysis to prove these solutions in Section 2 of [[1]](To appear). We provide the candidate solutions, which are given in the files Ubar_Th_3_j.jl for j = 7,8, and 9. These correspond to the approximate solution $\overline{U}$ in Section 3.1. The approximate solution is computed in the code using a Newton method.
+The Thomas model has solutions which are believed to be periodic as well. We wish to provide the theory needed to prove these solutions. We perform a similar, yet different analysis to prove these solutions in Section 2 of [[1]](To appear). We provide the candidate solutions, which are given in the files Ubar_Th_3_j.jl for j = 7,8, and 9. These correspond to the approximate solution $\overline{\mathbf{U}}$ in Section 3.1. The approximate solution is computed in the code using a Newton method.
 
 Given these approximate solution, the file Thomas_Periodic_Proof.jl provides the explicit computation of the bounds presented in Section 3.2. It also provides a value for $r_0$ where the proof is successful. 
 
 ## Proving Branches of Solutions
 
-We then demonstrate our approach for proving branches of solutions in Section 4 of [[1]](To appear). We provide a starting solution and the code needed to compute the branch of solution we prove. It is given in the file Ubar_Thomas_Branch_start.jl. After performing some computations in the code, we have an approximate solution $\overline{W}(s)$ as defined in Section 4. The approximate solution is computed in the code using a Newton method.
+We then demonstrate our approach for proving branches of solutions in Section 4 of [[1]](To appear). We provide a starting solution and the code needed to compute the branch of solution we prove. It is given in the file Ubar_Thomas_Branch_start.jl. After performing some computations in the code, we have an approximate solution $\overline{\mathbf{W}}(s)$ as defined in Section 4. The approximate solution is computed in the code using a Newton method.
 
 Given the starting point and the computations done in the code, the file Thomas_Branch_Proof.jl provides the explicit computation of the bounds presented in Section 4.1. It also provides a value for $r_0$ where the proof is successful. 
  
