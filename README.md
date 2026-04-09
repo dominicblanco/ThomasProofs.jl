@@ -30,6 +30,7 @@ It provides the necessary rigorous computations of the bounds presented along th
 $$\partial_t u = \nu\Delta u + \nu_4 - u - \frac{\nu_1 uv}{1+u+\nu_2 u^2},$$
 
 $$\partial_t v = \Delta v + \nu_3(\nu_5 - v) -  \frac{\nu_1 uv}{1+u+\nu_2 u^2},$$
+
 is known to have localized patterns and periodic solutions.
 
 ## Proving Localized Patterns 
